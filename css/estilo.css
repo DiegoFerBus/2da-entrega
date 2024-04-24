@@ -9,6 +9,52 @@
     font-family: "Montserrat", sans-serif;
 }
 
+/* Estilos para el header */
+
+header {
+    background-color: #333; /* Color de fondo del header */
+    padding: 10px 0; /* Espaciado interno del header */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Ajuste del espacio alrededor de los elementos */
+  }
+  
+  .logo img {
+    width: 100px; /* Ancho de la imagen del logo */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  nav ul {
+    list-style: none; /* Quitamos los estilos de lista */
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px; /* Espaciado entre elementos de la lista de navegación */
+  }
+  
+  nav li:last-child {
+    margin-right: 0; /* Quitamos el margen derecho del último elemento de la lista */
+  }
+  
+  nav li a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quitamos el subrayado de los enlaces */
+    font-weight: bold; /* Estilo de fuente en negrita */
+  }
+  
+  /* Estilos adicionales según sea necesario */
+  
+
+
+.logo{
+    display: flex;
+}
+
 /*---- Navegacion ----*/
 
 nav li {
