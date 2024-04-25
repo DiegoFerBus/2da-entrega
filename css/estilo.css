@@ -290,6 +290,7 @@ h2 {
 
 body {
     background-color: gray;
+    flex-direction: column;
 }
 
 .ver-btn {
@@ -333,8 +334,6 @@ body {
             height: 300px;
             margin: 0 auto;
         }
-
-        
     }
 
 }

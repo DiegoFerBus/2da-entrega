@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<main>
 
     <head>
         <meta charset="UTF-8">
@@ -13,36 +12,38 @@
 
     </head>
 
-    <body>
+    <body class="container-fluid d-flex">
+
         <!-- Menu de navegacion -->
-         <nav> 
+        <nav class="row col">
+        
             <!-- Logo clickeable -->
             <div class="logo">
-              <a href="./index.html">
-            <img src="./resources/logo.png" alt="logo-clickeable">  
+                <a href="./index.html">
+                    <img src="./resources/logo.png" alt="logo-clickeable">
             </div>
-            
-         </a> 
-            <ul>
-                <!-- Listas -->
-                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/series.html">Series</a></li>
-                <li><a href="./pages/peliculas.html">Películas</a></li>
-                <li><a href="./pages/lista.html">Mi lista</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+
+            </a>
+            <div>
+                <ul>
+                    <!-- Listas -->
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./pages/series.html">Series</a></li>
+                    <li><a href="./pages/peliculas.html">Películas</a></li>
+                    <li><a href="./pages/lista.html">Mi lista</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
         </nav>
-        <main class="main-index">
+            
+        <div class="main-section row">
             <h1 class="bordes-redondeados separacion-titulos">Inicio</h1>
-
-        </main>
-
-        <div class="main-section">
-            <!-- Iframe de YOUTUBE  -->
             <div>
                 <h2 class="dune">Dune 2</h2>
                 <div class="dune-poster">
-                     <img class="dune-hijo" src="https://i.blogs.es/6061c9/dune-2-movie-poster/500_333.jpeg" alt="poster dune 2">
+                    <img class="dune-hijo" src="https://i.blogs.es/6061c9/dune-2-movie-poster/500_333.jpeg"
+                        alt="poster dune 2">
                 </div>
 
             </div>
@@ -80,9 +81,7 @@
             </div>
         </div>
 
-
-
-        <footer class="footer">
+        <footer class="footer row">
 
             <!-- Logos Clickeables -->
             <div>
@@ -114,7 +113,7 @@
 
         </footer>
 
-</main>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
