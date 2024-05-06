@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Series • BackNow</title>
 
@@ -12,17 +14,22 @@
 <body class="container-fluid">
     <nav class="row col">
         <!-- Logo clickeable -->
-        <!-- <a href="../index.html"> 
-            <img src="../resources/logo.png" alt="logo-clickeable">
-        </a> -->
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./series.html">Series</a></li>
-            <li><a href="./peliculas.html">Peliculas</a></li>
-            <li><a href="./lista.html">Mi lista</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../resources/logo.png" alt="logo-clickeable">
+        </div>
 
-        </ul>
+        <div class="menu-nav">
+
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./series.html">Series</a></li>
+                <li><a href="./peliculas.html">Peliculas</a></li>
+                <li><a href="./lista.html">Mi lista</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
 
     </nav>
 
@@ -35,32 +42,32 @@
         </main>
 
         <img src="../resources/series/portada-friends.webp" alt="friends">
-        
+
         <h2 class="dune">Series para ti</h2>
 
         <div class="imagenes">
             <div class="content">
                 <img src="../resources/series/seinfeld.jpg" alt="seindfeld">
-                <button class="ver-btn">Ver</button>
+                <button type="button" class="btn btn-outline-success">Ver</button>
             </div>
 
             <div class="content">
                 <img src="../resources/series/malcom.png" alt="malcom">
-                <button class="ver-btn">Ver</button>
+                <button type="button" class="btn btn-outline-success">Ver</button>
             </div>
 
             <div class="content">
                 <img src="../resources/series/last-of-us.jpg" alt="the last of us">
-                <button class="ver-btn">Ver</button>
+                <button type="button" class="btn btn-outline-success">Ver</button>
             </div>
             <div class="content">
                 <img src="../resources/series/bbad.webp" alt="breaking bad">
-                <button class="ver-btn">Ver</button>
+                <button type="button" class="btn btn-outline-success">Ver</button>
             </div>
 
             <div class="content">
                 <img src="../resources/series/monk.jpg" alt="monk">
-                <button class="ver-btn">Ver</button>
+                <button type="button" class="btn btn-outline-success">Ver</button>
             </div>
 
 
@@ -71,21 +78,23 @@
 
     <!-- Logos Clickeables -->
 
-    <footer class="footer-series row col">
+    <footer class="footer row">
 
+        <!-- Logos Clickeables -->
         <div>
             <a href="https://www.instagram.com/">
-                <img class="img-footer-series" src="../resources/logo-insta.png" alt="instagram">
+                <img class="img-footer" src="../resources/logo-insta.png" alt="instagram">
             </a>
 
             <a href="https://www.twitter.com/">
-                <img class="img-footer-series" src="../resources/logo-x.png" alt="x">
+                <img class="img-footer" src="../resources/logo-x.png" alt="x">
             </a>
 
             <a href="https://www.youtube.com/">
-                <img class="img-footer-series" src="../resources/logo-youtube.png" alt="youtube">
+                <img class="img-footer" src="../resources/logo-youtube.png" alt="youtube">
             </a>
         </div>
+
 
         <!-- Politicas de privacidad y términos de uso -->
         <div>
@@ -96,6 +105,8 @@
             </ul>
 
         </div>
+
+
 
     </footer>
 

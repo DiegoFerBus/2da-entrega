@@ -33,6 +33,11 @@ header {
     /* Altura automática para mantener la proporción */
 }
 
+.menu-nav{
+    display: flex;
+    justify-content: center;
+}
+
 nav ul {
     list-style: none;
     /* Quitamos los estilos de lista */
@@ -198,7 +203,7 @@ h2 {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -289,7 +294,7 @@ h2 {
 }
 
 body {
-    background-color: gray;
+    background-color: beige;
     flex-direction: column;
 }
 
@@ -302,6 +307,10 @@ body {
     padding: 10px;
     width: 80px;
     align-self: center;
+}
+
+.btn-outline-success{
+    margin: 10px;
 }
 
 .content {
